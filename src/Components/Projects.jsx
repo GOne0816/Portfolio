@@ -19,18 +19,21 @@ const Projects = () => {
         <ProjectCard
           
           Image={Ima1}
+          Alt="ToDo_Lists"
           link="https://todolistjagjeevan.netlify.app"
           Heading="To-Do Lists"
           Para="A web application to add tasks for your day to day life."
         />
         <ProjectCard
           Image={Ima2}
+          Alt="Expense_Tracker"
           link="https://expjagjeevan.netlify.app"
           Heading="Expense Tracker"
           Para="A web application to calculate your expenses."
         />
         <ProjectCard
           Image={Ima3}
+          Alt="Portfolio"
           link="https://portfolio2jagjeevan.netlify.app"
           Heading="Portfolio"
           Para="A UI design for my Portfolio page to showcase my design skills."
