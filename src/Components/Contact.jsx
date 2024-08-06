@@ -50,7 +50,7 @@ const Contact = () => {
         <h1 className="text-center font-bold text-5xl tracking-tighter max-sm:text-3xl max-sm:font-extrabold">
           Get in Touch
         </h1>
-        <p className="text-gray-500 text-xl max-sm:text-xs">
+        <p className="text-gray-900 text-xl max-sm:text-xs">
           Have a project in mind? Let's chat.
         </p>
         <form
