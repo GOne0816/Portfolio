@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef } from "react";
 import { Toaster, toast } from "sonner";
 import { FaCircleCheck } from "react-icons/fa6";
 
@@ -16,6 +16,7 @@ const Contact = () => {
   const nameInputRef = useRef();
   const emailInputRef = useRef();
   const messageRef = useRef();
+  const subjectRef = useRef();
   const onSubmit = async (event) => {
     event.preventDefault();
 
@@ -41,6 +42,7 @@ const Contact = () => {
     nameInputRef.current.value = "";
     emailInputRef.current.value = "";
     messageRef.current.value = "";
+    subjectRef.current.value = "";
     notify();
   };
 
@@ -60,7 +62,7 @@ const Contact = () => {
           <input
             ref={nameInputRef}
             type="text"
-            name="Name"
+            name="from_name"
             id=""
             placeholder="Name"
             className="p-4 rounded-lg"
@@ -68,10 +70,19 @@ const Contact = () => {
           />
           <input
             ref={emailInputRef}
-            type="email"
+            type="from_email"
             name="Email"
             id=""
             placeholder="Email"
+            className="p-4 rounded-lg"
+            required
+          />
+          <input
+            ref={subjectRef}
+            type="text"
+            name="subject"
+            id=""
+            placeholder="Subject"
             className="p-4 rounded-lg"
             required
           />
