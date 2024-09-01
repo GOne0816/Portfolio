@@ -20,14 +20,14 @@ const Projects = () => {
           
           Image={Ima1}
           Alt="ToDo_Lists"
-          link="https://todolistjagjeevan.netlify.app"
+          link="https://g-1-todo-list.vercel.app/"
           Heading="To-Do Lists"
           Para="A web application to add tasks for your day to day life."
         />
         <ProjectCard
           Image={Ima2}
           Alt="Expense_Tracker"
-          link="https://expjagjeevan.netlify.app"
+          link="hhttps://g-1-exp-tracker.vercel.app/"
           Heading="Expense Tracker"
           Para="A web application to calculate your expenses."
         />
