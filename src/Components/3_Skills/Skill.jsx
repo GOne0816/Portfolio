@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const anima = {
   hidden: { opacity: 0 },
-  show: { opacity: 1, transition: { staggerChildren: 0.5 } },
+  show: { opacity: 1, transition: { staggerChildren: 0.5, delayChildren: 0.2 } },
 };
 
 const Skill = () => {
@@ -27,7 +27,7 @@ const Skill = () => {
         viewport={{ once: true }}
       >
         <Card
-          Heading="React"
+          Heading="React.js"
           Para="Experienced in building complex web applications using React."
         />
         <Card
@@ -41,6 +41,10 @@ const Skill = () => {
         <Card
           Heading="MongoDB"
           Para="Experienced in using MongoDB for database management."
+        />
+        <Card
+          Heading="Node.js"
+          Para="Experienced in using Node.js for server-side programming."
         />
         <Card
           Heading="Blender"

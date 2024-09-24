@@ -1,10 +1,10 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
-import Ima0 from "../Assets/Imgs.jpeg";
-import Ima1 from "../Assets/avatar.jpeg";
-import Ima2 from "../Assets/Image 1.jpeg";
-import Ima3 from "../Assets/Imafe.jpeg";
+import Ima0 from "../0_Assets/Imgs.jpeg";
+import Ima1 from "../0_Assets/avatar.jpeg";
+import Ima2 from "../0_Assets/Image 1.jpeg";
+import Ima3 from "../0_Assets/Imafe.jpeg";
 
 const Projects = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import Im from "../Assets/Imgs.jpeg";
+import Im from "../0_Assets/Imgs.jpeg";
 import { BiSolidDownload } from "react-icons/bi";
-import resume from "../Assets/Jag_Jeevan Ricky_CV.pdf";
+import resume from "../0_Assets/Jag_Jeevan Ricky_CV.pdf";
 
 const Home = () => {
   return (
