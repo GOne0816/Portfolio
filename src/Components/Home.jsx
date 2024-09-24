@@ -15,7 +15,7 @@ const Home = () => {
             Full Stack Developer
           </h2>
           <p className="text-gray-500 mt-4 text-lg max-sm:text-sm max-sm:text-center">
-            I'm a passionate frontend developer with a focus on building
+            I'm a passionate Full-Stack developer with a focus on building
             beautiful and performant web applications. I have experience working
             with React, Nodejs, TypeScript, and various UI libraries.
           </p>
