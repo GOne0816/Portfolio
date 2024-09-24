@@ -12,12 +12,12 @@ const Home = () => {
             Jag Jeevan Ricky
           </h1>
           <h2 className="text-3xl font-extrabold text-gray-500 tracking-tighter max-sm:text-xl max-sm:font-extrabold max-sm:text-center">
-            Frontend Developer
+            Full Stack Developer
           </h2>
           <p className="text-gray-500 mt-4 text-lg max-sm:text-sm max-sm:text-center">
             I'm a passionate frontend developer with a focus on building
             beautiful and performant web applications. I have experience working
-            with React, TypeScript, and various UI libraries.
+            with React, Nodejs, TypeScript, and various UI libraries.
           </p>
           <div className="max-sm:w-full max-sm:flex max-sm:justify-center max-sm:items-center">
             <a href={resume} download="Resume">
