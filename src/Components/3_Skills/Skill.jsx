@@ -9,7 +9,7 @@ const anima = {
 
 const Skill = () => {
   return (
-    <div className="mx-80 py-48 flex flex-col justify-center items-center max-sm:mx-4 max-sm:py-16 max-lg:mx-16  max-lg:py-32">
+    <div className="mx-80 py-48 flex flex-col justify-center items-center max-sm:mx-4 max-sm:py-16 max-lg:mx-16 max-lg:py-32">
       <h1 className="text-center font-bold text-6xl tracking-tighter max-sm:text-3xl max-sm:font-extrabold">
         My Skills
       </h1>

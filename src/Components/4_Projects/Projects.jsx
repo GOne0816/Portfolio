@@ -27,7 +27,7 @@ const Projects = () => {
         <ProjectCard
           Image={Ima2}
           Alt="Expense_Tracker"
-          link="https://g-1-exp-tracker.vercel.app/"
+          link="https://g-1-exp-tracker.vercel.app/" 
           Heading="Expense Tracker"
           Para="A web application to calculate your expenses."
         />

@@ -47,12 +47,12 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 dark:bg-zinc-900">
       <div className=" flex justify-center items-center flex-col text-center py-24 ">
         <h1 className="text-center font-bold text-5xl tracking-tighter max-sm:text-3xl max-sm:font-extrabold">
           Get in Touch
         </h1>
-        <p className="text-gray-900 text-xl max-sm:text-xs">
+        <p className="text-zinc-900 dark:text-zinc-500 text-xl max-sm:text-xs">
           Have a project in mind? Let's chat.
         </p>
         <form
@@ -65,7 +65,7 @@ const Contact = () => {
             name="from_name"
             id=""
             placeholder="Name"
-            className="p-4 rounded-lg"
+            className="p-4 rounded-lg dark:bg-zinc-800"
             required
           />
           <input
@@ -74,7 +74,7 @@ const Contact = () => {
             name="Email"
             id=""
             placeholder="Email"
-            className="p-4 rounded-lg"
+            className="p-4 rounded-lg dark:bg-zinc-800"
             required
           />
           <input
@@ -83,7 +83,7 @@ const Contact = () => {
             name="subject"
             id=""
             placeholder="Subject"
-            className="p-4 rounded-lg"
+            className="p-4 rounded-lg dark:bg-zinc-800"
             required
           />
           <textarea
@@ -92,7 +92,7 @@ const Contact = () => {
             name="Message"
             rows={6}
             placeholder="Message"
-            className="p-4 rounded-lg"
+            className="p-4 rounded-lg dark:bg-zinc-800"
             required
           />
           <button className="btn-AltDark my-6">Submit</button>
