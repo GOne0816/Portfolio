@@ -10,28 +10,28 @@ import { FaSun } from "react-icons/fa6";
 import { FaMoon } from "react-icons/fa6";
 
 function App() {
-  // const [theme, setTheme] = useState("light")
+  const [theme, setTheme] = useState("light")
 
-  // useEffect(() => {
-  //   if(theme === "dark") {
-  //     document.documentElement.classList.add("dark");
-  //   } else {
-  //     document.documentElement.classList.remove("dark");
-  //   }
-  // }, [theme])
+  useEffect(() => {
+    if(theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [theme])
 
-  // const handleThemeSwitch = () => {
-  //   setTheme(theme === "dark" ? "light" : "dark")
+  const handleThemeSwitch = () => {
+    setTheme(theme === "dark" ? "light" : "dark")
     
-  // }
+  }
   return (
     <>
       <div className="dark:bg-black dark:text-white">
         <nav className=" flex justify-end items-center p-12 pb-0 max-sm:p-8 max-sm:pb-0">
-          {/* <button onClick={handleThemeSwitch}>
+          <button onClick={handleThemeSwitch}>
             {!theme ? <FaSun className="size-8"/> : <FaMoon className="size-8"/>}
-            <FaSun className="size-8"/>
-          </button> */}
+            {/* <FaSun className="size-8"/> */}
+          </button>
         </nav>
         <Home />
         <About />
