@@ -21,12 +21,14 @@ function App() {
   }, [theme])
 
   const handleThemeSwitch = () => {
-    setTheme(theme === "dark" ? "light" : "dark")
+    setTheme(theme === "dark" ? "light" : "dark") 
     
   }
+  //  sadasdasdasdasdsad 
+  // sadasdsadsa >=== <= <==< <=== {} [] <!-- 
   return (
     <>
-      <div className="dark:bg-black dark:text-white">
+      <div className="dark:bg-black dark:text-white"> 
         <nav className=" flex justify-end items-center p-12 pb-0 max-sm:p-8 max-sm:pb-0">
           <button onClick={handleThemeSwitch}>
             {!theme ? <FaSun className="size-8"/> : <FaMoon className="size-8"/>}
