@@ -27,8 +27,6 @@ function App() {
     setTheme(theme === "dark" ? "light" : "dark") 
     
   }
-  //  sadasdasdasdasdsad 
-  // sadasdsadsa >=== <= <==< <=== {} [] <!-- 
   return (
     <>
       <div className="dark:bg-black dark:text-white"> 

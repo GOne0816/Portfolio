@@ -27,6 +27,10 @@ const Skill = () => {
         viewport={{ once: true }}
       >
         <Card
+          Heading="Framer Motion"
+          Para="Experienced in adding smooth animations and transitions to enhance user experience."
+        />
+        <Card
           Heading="React.js"
           Para="Experienced in building complex web applications using React."
         />
@@ -35,8 +39,8 @@ const Skill = () => {
           Para="Experienced in using Tailwind CSS for rapid UI development."
         />
         <Card
-          Heading="TypeScript"
-          Para="Proficient in using TypeScript to write type-safe JavaScript."
+          Heading="JavaScript (ES6+)"
+          Para="Proficient in modern JavaScript for dynamic and efficient web development."
         />
         <Card
           Heading="MongoDB"
@@ -45,6 +49,10 @@ const Skill = () => {
         <Card
           Heading="Node.js"
           Para="Experienced in using Node.js for server-side programming."
+        />
+        <Card
+          Heading="Framer Motion"
+          Para="Experienced in adding smooth animations and transitions to enhance user experience."
         />
         <Card
           Heading="Blender"
