@@ -27,8 +27,8 @@ const Skill = () => {
         viewport={{ once: true }}
       >
         <Card
-          Heading="Framer Motion"
-          Para="Experienced in adding smooth animations and transitions to enhance user experience."
+          Heading="HTML5 & CSS3"
+          Para="Strong foundation in semantic HTML and advanced CSS for accessible, pixel-perfect layouts."
         />
         <Card
           Heading="React.js"
@@ -45,10 +45,6 @@ const Skill = () => {
         <Card
           Heading="MongoDB"
           Para="Experienced in using MongoDB for database management."
-        />
-        <Card
-          Heading="Node.js"
-          Para="Experienced in using Node.js for server-side programming."
         />
         <Card
           Heading="Framer Motion"
