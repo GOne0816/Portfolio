@@ -34,7 +34,7 @@ const Projects = () => {
         <ProjectCard
           Image={SS3}
           Alt="Portfolio"
-          link="https://portfolio2jagjeevan.netlify.app"
+          link="https://g-2portfolio.vercel.app/"
           Heading="Portfolio"
           Para="A UI design for my Portfolio page to showcase my design skills."
         />
