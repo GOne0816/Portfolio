@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
 import Im from "../0_Assets/Imgs.jpg";
 import { BiSolidDownload } from "react-icons/bi";
-import resume from "../0_Assets/Jag Jeevan Ricky Resume.pdf";
+import resume from "../0_Assets/Jag Jeevan Ricky CV.pdf";
 
 
 const Home = () => {
