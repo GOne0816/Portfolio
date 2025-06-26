@@ -6,7 +6,7 @@ import Projects from "./Components/4_Projects/Projects";
 import Contact from "./Components/5_Contacts/Contact";
 import Footer from "./Components/6_Footer/Footer";
 // import Timeline from "./Components/7_Timeline/Timeline";
-import FAQ from "./Components/8_FAQ/FAQ";
+// import FAQ from "./Components/8_FAQ/FAQ";
 // import Hobbies from "./Components/9_Hobbies/Hobbies";
 import "./App.css";
 import { FaSun } from "react-icons/fa6";
@@ -43,7 +43,7 @@ function App() {
         <Skill />
         <Projects />
         <Contact />
-        <FAQ />
+        {/* <FAQ /> */}
         <Footer />
       </div>
     </>
